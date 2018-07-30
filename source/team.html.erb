@@ -1,0 +1,11 @@
+
+<ul class= "team list-inline text-center">
+  <% ["GLTaylor", "clw8"].each do |username| %>
+  <li>
+    <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{username}", class: "img img-circle"%>
+      <h3><%= username.capitalize %></h3>
+  </li>
+  <% end %>
+  <p> This page was built by us! </p>
+</ul>
+
